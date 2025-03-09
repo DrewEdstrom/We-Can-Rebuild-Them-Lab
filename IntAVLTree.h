@@ -76,7 +76,7 @@ class IntAVLTree
     void insert(int value);
     //removes a node containing a given value
     void remove(int value);
-    //serializes the AVL tree using an in-order traversal
+    //serializes the AVL tree using a pre-order traversal
     std::string serialize();
 
 };
