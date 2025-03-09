@@ -89,7 +89,7 @@ IntAVLTree::Node* IntAVLTree::remove_helper(Node* node, int value)
     return balance(node);
 }
 
-//serializes the AVL tree using an in-order traversal
+//serializes the AVL tree using a pre-order traversal
 string IntAVLTree::serialize()
 {
     return serialize_helper(root);
